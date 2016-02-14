@@ -1,0 +1,11 @@
+<UDAInfo>
+	<Attribute 	Name="Object.Script.AffectInputSource" 
+				DataType="MxBoolean" 
+				Category="MxCategoryWriteable_USC_Lockable" 
+				Security="MxSecurityOperate" 
+				IsArray="false" 
+				HasBuffer="false" 
+				ArrayElementCount="0" 
+				InheritedFromTagName=""/>
+	<Attribute Name="PV_FB" DataType="MxFloat" Category="MxCategoryWriteable_USC_Lockable" Security="MxSecurityOperate" IsArray="false" HasBuffer="false" ArrayElementCount="0" InheritedFromTagName=""/>
+</UDAInfo>
