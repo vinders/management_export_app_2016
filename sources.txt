@@ -1,16 +1,17 @@
 Organisation générale et classes
   H. Bersini, Programmation orientée objet, Eyrolles
-  Dépliant, Design patters - 14 patterns de conception détaillés, Editions ENI
+  Collectif ENI, Design patterns - 14 patterns de conception détaillés (dépliant), Editions ENI
   J. Gabay & D. Gabay, UML2, Dunod
   Troelsen, Pro C# 5.0 and the .NET 4.5 Framework, Apress
-  Cours 2e année UML
   Cours 3e année C# : modèle multi-tiers
   Cours infographie 2e année programmation web PHP : modèle MVC
 
 Divers
-  Cours infographie 1e année 2D : Photoshop
+  Cours infographie 1e année 2D : Photoshop (création sprites)
+  Cours infographie 2e année design web : principe sprites + responsive design
+  Cours infographie 2e année ergonomie web : principes ergonomie et UX
   Cours infographie 3e année RIA : coding rules
-  Cours 1e année C : coding rules
+  Cours 1e année programmation C : coding rules
   Documentation ArchestrA : installation, configuration, fonctionnement
   Documentation GRAccess : obtention accès + connexion, récupération objets, référence des fonctions
 
