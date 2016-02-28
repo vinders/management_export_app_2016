@@ -1,60 +1,108 @@
-http://stackoverflow.com/questions/444296/how-to-efficiently-build-a-tree-from-a-flat-structure
+Organisation générale et classes
+  H. Bersini, Programmation orientée objet, Eyrolles
+  Dépliant, Design patters - 14 patterns de conception détaillés, Editions ENI
+  J. Gabay & D. Gabay, UML2, Dunod
+  Troelsen, Pro C# 5.0 and the .NET 4.5 Framework, Apress
+  Cours 2e année UML
+  Cours 3e année C# : modèle multi-tiers
+  Cours infographie 2e année programmation web PHP : modèle MVC
+
+Divers
+  Cours infographie 1e année 2D : Photoshop
+  Cours infographie 3e année RIA : coding rules
+  Cours 1e année C : coding rules
+  Documentation ArchestrA : installation, configuration, fonctionnement
+  Documentation GRAccess : obtention accès + connexion, récupération objets, référence des fonctions
 
 
 
+Création d'un arbre via index (conteneur)
+-> organiser objets templates non triés en arbre
+  http://stackoverflow.com/questions/444296/how-to-efficiently-build-a-tree-from-a-flat-structure
 
-https://msdn.microsoft.com/en-us/library/haf2a2zb(v=vs.110).aspx?cs-save-lang=1&cs-lang=csharp#code-snippet-1
-https://msdn.microsoft.com/en-us/library/system.windows.forms.imagelist(v=vs.110).aspx
-http://stackoverflow.com/questions/734930/how-to-crop-an-image-using-c
+Création visuelle d'arbre et icônes
+-> afficher arbre templates
+  https://msdn.microsoft.com/en-us/library/haf2a2zb(v=vs.110).aspx?cs-save-lang=1&cs-lang=csharp#code-snippet-1
+  https://msdn.microsoft.com/en-us/library/system.windows.forms.imagelist(v=vs.110).aspx
+  http://stackoverflow.com/questions/734930/how-to-crop-an-image-using-c
 
-https://msdn.microsoft.com/en-us/library/aa719644(vs.71).aspx
-http://stackoverflow.com/questions/6192739/how-do-i-raise-an-event-in-a-usercontrol-and-catch-it-in-mainpage
+Event-bubbling 
+-> renvoyer events de user-control vers formulaire (sélection dans arbre ou liste, ...)
+  https://msdn.microsoft.com/en-us/library/aa719644(vs.71).aspx
+  http://stackoverflow.com/questions/6192739/how-do-i-raise-an-event-in-a-usercontrol-and-catch-it-in-mainpage
 
-http://stackoverflow.com/questions/11313373/how-to-implement-ienumerablet-with-getenumerator
-
-http://stackoverflow.com/questions/4085529/c-sharp-deserialize-xml-to-object
-https://msdn.microsoft.com/fr-be/library/system.io.stringreader(v=vs.110).aspx
-https://msdn.microsoft.com/fr-fr/library/system.xml.serialization.xmlserializer(v=vs.110).aspx
-
-
-http://stackoverflow.com/questions/1582285/how-to-remove-elements-from-a-generic-list-while-iterating-over-it
-
-https://msdn.microsoft.com/en-us/library/aa287548(v=vs.71).aspx
-
-https://msdn.microsoft.com/fr-fr/library/system.datetime.now(v=vs.110).aspx
-
-stackoverflow + msdn : encodage (conversion utf8, conversion string en bytes, écriture fichier avec encodage)
-
-http://stackoverflow.com/questions/2818179/how-to-force-my-net-app-to-run-as-administrator-on-windows-7
-
-http://csharp.net-informations.com/data-providers/csharp-sql-server-connection.htm
-https://msdn.microsoft.com/fr-fr/library/system.data.sqlclient.sqlconnection(v=vs.110).aspx
-https://www.connectionstrings.com/sqlconnection/
-https://msdn.microsoft.com/en-us/library/fksx3b4f.aspx
-https://msdn.microsoft.com/fr-fr/library/cc437981(v=vs.71).aspx
-https://msdn.microsoft.com/fr-fr/library/haa3afyz(v=vs.110).aspx
+Arbre (conteneur) en tant qu'énumérable 
+-> fonctions générique pour listes et arbres
+  http://stackoverflow.com/questions/11313373/how-to-implement-ienumerablet-with-getenumerator
 
 
-http://stackoverflow.com/questions/11482501/populating-a-listview-multi-column
-https://msdn.microsoft.com/fr-fr/library/system.windows.forms.listviewitem(v=vs.110).aspx
-https://msdn.microsoft.com/fr-fr/library/system.windows.forms.listviewitem.listviewsubitem(v=vs.110).aspx
 
-https://support.microsoft.com/fr-fr/kb/319401
+Ecriture dans un fichier en C#, récupérer date, éviter erreurs encodage
+-> log
+  https://msdn.microsoft.com/en-us/library/aa287548(v=vs.71).aspx
+  https://msdn.microsoft.com/fr-fr/library/system.datetime.now(v=vs.110).aspx
+  stackoverflow + msdn : encodage (conversion utf8, conversion string en bytes, écriture fichier avec encodage)
 
-cours algo 1e : recherche dicho
+Lancement en tant qu'administrateur automatique
+-> nécessaire pour obtenir accès GRAccess
+  http://stackoverflow.com/questions/2818179/how-to-force-my-net-app-to-run-as-administrator-on-windows-7
+
+Documentation XML du code créé
+-> créer documentation interprétée par Visual Studio (pour activer autocomplétion, infos au survol, ...)
+  https://msdn.microsoft.com/fr-be/library/5ast78ax.aspx
 
 
-https://msdn.microsoft.com/fr-be/library/5ast78ax.aspx
 
-http://emerica.developpez.com/csharp/threads/
-https://msdn.microsoft.com/fr-fr/library/7a2f3ay4(v=vs.90).aspx
+Désérialisation XML 
+-> récupération liste d'UDA et leurs caractéristiques (depuis XML)
+  http://stackoverflow.com/questions/4085529/c-sharp-deserialize-xml-to-object
+  https://msdn.microsoft.com/fr-be/library/system.io.stringreader(v=vs.110).aspx
+  https://msdn.microsoft.com/fr-fr/library/system.xml.serialization.xmlserializer(v=vs.110).aspx
 
-http://stackoverflow.com/questions/1578775/how-to-get-a-enum-value-from-string-in-c
+Suppression dans une liste actuellement parcourue
+-> retirer résultats qui sont à exclure (selon nom templates, puis selon parent dossiers)
+-> trouver UDAs communs pour plusieurs items (retraits à partir de liste du premier)
+  http://stackoverflow.com/questions/1582285/how-to-remove-elements-from-a-generic-list-while-iterating-over-it
 
-http://stackoverflow.com/questions/9602567/how-to-update-ui-from-another-thread-running-in-another-class
-http://stackoverflow.com/questions/7893651/how-to-deal-with-asynchronous-sql-queries-from-non-ui-threads
-http://stackoverflow.com/questions/4130194/what-is-the-difference-between-task-and-thread
-https://msdn.microsoft.com/fr-fr/library/system.threading.mutex(v=vs.110).aspx
-https://msdn.microsoft.com/fr-be/library/system.threading.tasks.task(v=vs.110).aspx
-http://www.codeproject.com/Articles/189374/The-Basics-of-Task-Parallelism-via-C
+Obtention valeur d'énumération à partir du nom sous forme de chaîne de caractères
+-> récupérer datatype d'une énumération selon une chaîne (dans un attribut/UDA)
+  http://stackoverflow.com/questions/1578775/how-to-get-a-enum-value-from-string-in-c
+
+
+
+Connexion et requêtes vers base de données SQL Server en C#
+-> procédure de recherche (puis obtention dossiers)
+  http://csharp.net-informations.com/data-providers/csharp-sql-server-connection.htm
+  https://msdn.microsoft.com/fr-fr/library/system.data.sqlclient.sqlconnection(v=vs.110).aspx
+  https://www.connectionstrings.com/sqlconnection/
+  https://msdn.microsoft.com/en-us/library/fksx3b4f.aspx
+  https://msdn.microsoft.com/fr-fr/library/cc437981(v=vs.71).aspx
+  https://msdn.microsoft.com/fr-fr/library/haa3afyz(v=vs.110).aspx
+  cours SGBD 1e et 2e année
+
+Gérer liste multi-colonnes avec tri par colonne
+-> affichage résultats de recherche
+  http://stackoverflow.com/questions/11482501/populating-a-listview-multi-column
+  https://msdn.microsoft.com/fr-fr/library/system.windows.forms.listviewitem(v=vs.110).aspx
+  https://msdn.microsoft.com/fr-fr/library/system.windows.forms.listviewitem.listviewsubitem(v=vs.110).aspx
+  https://support.microsoft.com/fr-fr/kb/319401
+
+Recherche dichotomique
+-> naviguer dans l'arbre, puis dans la liste d'instances, à partir d'une sélection de la recherche
+  cours algorithmique 1e année : recherche dichotomique d'une instance
+
+
+
+Création de threads et tasks + exécution asynchrone
+-> exécution de tâches GRAccess et SQL en parallèle, pour ne pas paralyser l'interface graphique et permettre affichage de progression
+  http://emerica.developpez.com/csharp/threads/
+  https://msdn.microsoft.com/fr-fr/library/7a2f3ay4(v=vs.90).aspx
+
+  http://stackoverflow.com/questions/9602567/how-to-update-ui-from-another-thread-running-in-another-class
+  http://stackoverflow.com/questions/7893651/how-to-deal-with-asynchronous-sql-queries-from-non-ui-threads
+  http://stackoverflow.com/questions/4130194/what-is-the-difference-between-task-and-thread
+  https://msdn.microsoft.com/fr-fr/library/system.threading.mutex(v=vs.110).aspx
+  https://msdn.microsoft.com/fr-be/library/system.threading.tasks.task(v=vs.110).aspx
+  http://www.codeproject.com/Articles/189374/The-Basics-of-Task-Parallelism-via-C
+  Cours Unix + threads 2e année : threads, mutex
 
