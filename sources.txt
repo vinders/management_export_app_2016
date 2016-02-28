@@ -7,7 +7,7 @@ Organisation générale et classes
   Cours infographie 2e année programmation web PHP : modèle MVC
 
 Divers
-  Cours infographie 1e année 2D : Photoshop (création sprites)
+  Cours infographie 1e année 2D : Photoshop (création sprites et icône)
   Cours infographie 2e année design web : principe sprites + responsive design
   Cours infographie 2e année ergonomie web : principes ergonomie et UX
   Cours infographie 3e année RIA : coding rules
