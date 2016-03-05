@@ -96,14 +96,46 @@ Recherche dichotomique
 
 Création de threads et tasks + exécution asynchrone
 -> exécution de tâches GRAccess et SQL en parallèle, pour ne pas paralyser l'interface graphique et permettre affichage de progression
-  http://emerica.developpez.com/csharp/threads/
-  https://msdn.microsoft.com/fr-fr/library/7a2f3ay4(v=vs.90).aspx
-
   http://stackoverflow.com/questions/9602567/how-to-update-ui-from-another-thread-running-in-another-class
   http://stackoverflow.com/questions/7893651/how-to-deal-with-asynchronous-sql-queries-from-non-ui-threads
   http://stackoverflow.com/questions/4130194/what-is-the-difference-between-task-and-thread
   https://msdn.microsoft.com/fr-fr/library/system.threading.mutex(v=vs.110).aspx
-  https://msdn.microsoft.com/fr-be/library/system.threading.tasks.task(v=vs.110).aspx
   http://www.codeproject.com/Articles/189374/The-Basics-of-Task-Parallelism-via-C
   Cours Unix + threads 2e année : threads, mutex
+  http://stackoverflow.com/questions/4331262/task-continuation-on-ui-thread
 
+Délégués
+-> callback après exécution de tâche
+  https://msdn.microsoft.com/fr-fr/library/900fyy8e.aspx
+
+Dispatching
+-> accéder à boite de progression depuis thread d'accès
+  http://stackoverflow.com/questions/10775367/cross-thread-operation-not-valid-control-textbox1-accessed-from-a-thread-othe
+
+Onglets
+-> Types d'arbres
+  http://stackoverflow.com/questions/4019888/how-do-you-add-an-image-to-tabcontrols-label-in-winforms
+  http://stackoverflow.com/questions/3297140/how-to-set-the-min-max-distance-for-the-splitter-control
+
+Arbre multiselect
+  https://sourceforge.net/projects/mstreeview/
+
+Lecture fichier
+-> config
+  https://msdn.microsoft.com/fr-be/library/system.io.streamreader.readline(v=vs.110).aspx
+
+Obtenir propriété depuis nom (string)
+-> Liste instances : construction modèle
+  http://stackoverflow.com/questions/1196991/get-property-value-from-string-using-reflection-in-c-sharp
+
+Masquer icône affichée via ImageIndex
+-> liste : icone de sens de tri
+  http://stackoverflow.com/questions/17363613/remove-images-from-listview-columns
+
+Obtenir numéro de page courante pour onglets
+-> récup sélection dans arbre template
+  http://stackoverflow.com/questions/10528842/how-to-find-which-tab-page-tabcontrol-is-on
+
+Comparaison insensible à la casse
+-> filtres
+  http://stackoverflow.com/questions/17563929/how-to-make-string-contains-case-insensitive
