@@ -170,7 +170,11 @@ Fichiers excel sur une machine sans Excel
   http://epplus.codeplex.com/
   Exemples fournis avec EPPlus
 
-Macros Excel
--> compter dynamiquement instances et templates
-    http://www.nullskull.com/articles/create_macro_at_runtime_in_dotnet.asp
+(Macros Excel)
+(-> compter dynamiquement instances et templates)
+  http://www.nullskull.com/articles/create_macro_at_runtime_in_dotnet.asp
   https://searchcode.com/codesearch/view/28145284/
+
+Formules Excel
+-> compter dynamiquement instances et templates
+  http://www.techonthenet.com/excel/formulas/
