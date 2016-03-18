@@ -139,3 +139,38 @@ Obtenir numéro de page courante pour onglets
 Comparaison insensible à la casse
 -> filtres
   http://stackoverflow.com/questions/17563929/how-to-make-string-contains-case-insensitive
+
+Getter public avec setter privé dans une propriété
+-> propriétés taskmanager
+  http://stackoverflow.com/questions/6082551/is-public-getter-and-private-setter-with-same-name-possible-in-c
+
+Annuler une tâche asynchrone
+-> task manager -> remplacement de tâche
+  https://msdn.microsoft.com/en-us/library/dd997396(v=vs.110).aspx
+
+Copier liste entière d'items d'un coup (AddRange) plutôt que boucle de Add
+-> accélérer affichage liste d'instances
+  http://stackoverflow.com/questions/9008310/how-to-speed-adding-items-to-a-listview
+
+DataGridView avec cases à cocher
+-> liste d'UDAs cochables/supprimables
+  http://stackoverflow.com/questions/1237829/datagridview-checkbox-column-value-and-functionality
+
+Eviter remplacement colonnes lors de databinding
+-> affichage UDAs
+  https://msdn.microsoft.com/en-us/library/hbtwc35f(v=vs.110).aspx
+
+Définir type d'extension de fichier sauvegardé
+-> controleurs d'export
+  https://msdn.microsoft.com/en-us/library/system.windows.forms.filedialog.defaultext(v=vs.110).aspx
+
+Fichiers excel sur une machine sans Excel
+-> export XLSX
+  http://stackoverflow.com/questions/2654932/create-excel-files-from-c-sharp-without-office
+  http://epplus.codeplex.com/
+  Exemples fournis avec EPPlus
+
+Macros Excel
+-> compter dynamiquement instances et templates
+    http://www.nullskull.com/articles/create_macro_at_runtime_in_dotnet.asp
+  https://searchcode.com/codesearch/view/28145284/
