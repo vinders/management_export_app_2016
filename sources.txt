@@ -3,6 +3,7 @@ Organisation générale et classes
   Collectif ENI, Design patterns - 14 patterns de conception détaillés (dépliant), Editions ENI
   J. Gabay & D. Gabay, UML2, Dunod
   Troelsen, Pro C# 5.0 and the .NET 4.5 Framework, Apress
+  W. de Kort, Exam Ref 70-483- Programming in C#, Microsoft Press
   Cours 3e année C# : modèle multi-tiers
   Cours infographie 2e année programmation web PHP : modèle MVC
 
@@ -211,3 +212,16 @@ Créer document Word en C# (sans Office installé)
   http://cathalscorner.blogspot.be/2010/06/docx-and-tables.html
   http://stackoverflow.com/questions/33176221/novacode-docx-different-page-orientations-within-the-same-document
   http://cathalscorner.blogspot.be/2010/06/docx-and-tables.html
+  http://stackoverflow.com/questions/35124370/how-to-go-to-the-next-page-in-novacode-docx
+
+Désérialisation XML de liste avec différents éléments
+-> récupérer extensions (pour export docx)
+  http://stackoverflow.com/questions/20133007/how-to-deserialize-an-xml-array-containing-multiple-types-of-elements-in-c-sharp
+
+Gestion des raccourcis claviers
+-> Raccourcis claviers pour recherche et layout
+  http://stackoverflow.com/questions/400113/best-way-to-implement-keyboard-shortcuts-in-a-windows-forms-application
+
+Sérialisation XML
+-> export docx : sauver catégories et sélection
+  http://stackoverflow.com/questions/19992569/c-sharp-serialize-an-object-with-a-list-of-objects-in-it

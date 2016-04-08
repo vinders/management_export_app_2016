@@ -1,0 +1,106 @@
+EXTENSIONS
+categ=MxCategoryPackageOnly; type=MxBigString; name=Extensions; val=<ExtensionInfo><ObjectExtension/><AttributeExtension/></ExtensionInfo>
+categ=MxCategoryPackageOnly; type=MxBigString; name=_InheritedExtensions; val=<ExtensionInfo><ObjectExtension/><AttributeExtension/></ExtensionInfo>
+
+categ=MxCategoryPackageOnly; type=MxBigString; name=Extensions; val=<ExtensionInfo><ObjectExtension><Extension Name="testscript" ExtensionType="ScriptExtension" InheritedFromTagName=""/></ObjectExtension><AttributeExtension/></ExtensionInfo>
+categ=MxCategoryPackageOnly; type=MxBigString; name=_InheritedExtensions; val=<ExtensionInfo><ObjectExtension/><AttributeExtension/></ExtensionInfo>
+
+categ=MxCategoryPackageOnly; type=MxBigString; name=Extensions; val=<ExtensionInfo><ObjectExtension/><AttributeExtension><Attribute Name="testudaext" ExtensionType="inputoutputextension" InheritedFromTagName=""/><Attribute Name="testudaext" ExtensionType="alarmextension" InheritedFromTagName=""/><Attribute Name="testudaext" ExtensionType="historyextension" InheritedFromTagName=""/><Attribute Name="testuda" ExtensionType="outputextension" InheritedFromTagName=""/><Attribute Name="testuda" ExtensionType="inputextension" InheritedFromTagName=""/></AttributeExtension></ExtensionInfo>
+categ=MxCategoryPackageOnly; type=MxBigString; name=_InheritedExtensions; val=<ExtensionInfo><ObjectExtension/><AttributeExtension/></ExtensionInfo>
+
+
+aucune :
+categ=MxCategoryPackageOnly; type=MxBigString; name=Extensions; val=
+    <ExtensionInfo>
+        <ObjectExtension/>
+        <AttributeExtension/>
+    </ExtensionInfo>
+
+extensions d'UDAs :
+categ=MxCategoryPackageOnly; type=MxBigString; name=Extensions; val=
+    <ExtensionInfo>
+        <ObjectExtension/>
+        <AttributeExtension>
+            <Attribute Name="testudaext" ExtensionType="inputoutputextension" InheritedFromTagName=""/>
+            <Attribute Name="testudaext" ExtensionType="alarmextension" InheritedFromTagName=""/>
+            <Attribute Name="testudaext" ExtensionType="historyextension" InheritedFromTagName=""/>
+            <Attribute Name="testuda" ExtensionType="outputextension" InheritedFromTagName=""/>
+            <Attribute Name="testuda" ExtensionType="inputextension" InheritedFromTagName=""/>
+        </AttributeExtension>
+    </ExtensionInfo>
+
+scripts :
+categ=MxCategoryPackageOnly; type=MxBigString; name=Extensions; val=
+    <ExtensionInfo>
+        <ObjectExtension>
+            <Extension Name="testscript" ExtensionType="ScriptExtension" InheritedFromTagName=""/>
+        </ObjectExtension>
+        <AttributeExtension/>
+    </ExtensionInfo>
+
+    
+    
+FIELD ATTRIBUTES
+
+categ=MxCategoryPackageOnly; type=MxBigString; name=UserAttrData; val=<AttrXML><DiscreteAttr Name="Discrete_001" Template="$UserDefined_001"/><DiscreteAttr Name="Discrete_002" Template="$UserDefined_001"/><AnalogAttr Name="Analog_001" Template="$UserDefined_001"/></AttrXML>
+categ=MxCategoryPackageOnly; type=MxBigString; name=_InheritedUserAttrData; val=<AttrXML></AttrXML>
+categ=MxCategoryWriteable_C_Lockable; type=MxString; name=_InheritedAttrListNames; val=__Attr_Name_List_1
+categ=MxCategoryWriteable_C_Lockable; type=MxBigString; name=__Attr_Name_List_1; val=<AttrXML><DiscreteAttr Name="Discrete_001" Template="$UserDefined_001"/><DiscreteAttr Name="Discrete_002" Template="$UserDefined_001"/><AnalogAttr Name="Analog_001" Template="$UserDefined_001"/></AttrXML>
+
+categ=MxCategory_SystemWriteable; type=MxString; name=_Attributes; val=Tagname,ShortDesc,_CategoryEnum,_Attributes,ScanStateCmd,ScanState,SecurityGroup,Errors,_ExecutionRelativeOrderEnum,Area,Container,Host,_AlarmModeEnum,AlarmMode,AlarmModeCmd,AlarmInhibit,InAlarm,_BasedOn,_IsTemplate,CodeBase,UDAs,_InheritedUDAs,Extensions,_InheritedExtensions,_Category,ConfigVersion,_Warnings,ContainedName,ExecutionRelatedObject,ExecutionRelativeOrder,HierarchicalName,MinorVersion,_CmdAdd,_CmdRemove,CmdData,_InheritedCmdData,_AdviseOnlyActiveEnabled,testuda,testudaext,_ExternalName,_InternalName,_Command,UserAttrData,_InheritedAttrListNames,_InheritedUserAttrData,_InheritedAttrListNameID,__Attr_Name_List_1,Discrete_001,Discrete_002,Analog_001,Discrete_001._ExternalName,Discrete_001._InternalName,Discrete_001._OnOffEnum,Discrete_001.Alarmed,Discrete_001.HasStatistics,Discrete_001.Historized,Discrete_001._AccessModeEnum,Discrete_001.AccessMode,Discrete_001.LogDataChangeEvent,Discrete_001.UseOffOnMsg,Discrete_001.OnMsg,Discrete_001.OffMsg,Discrete_001.InvertValue,Discrete_001.Bad.Condition,Discrete_001.Bad.Alarmed,Discrete_001.Msg,Discrete_001.Output.DiffAddr,Discrete_001._RefAttrID,Discrete_001.Desc,Discrete_001._AttrCat,Discrete_001._HasBuffer,Discrete_001.Input._ExternalName,Discrete_001.Input._InternalName,Discrete_001.Input.ReadStatus,Discrete_001.Input.Value,Discrete_001.Input.DataType,Discrete_001.Input.InputSource,Discrete_001.Output._ExternalName,Discrete_001.Output._InternalName,Discrete_001.Output.WriteStatus,Discrete_001.Output.Value,Discrete_001.Output.DataType,Discrete_001.Output.OutputDest,Discrete_002._ExternalName,Discrete_002._InternalName,Discrete_002._OnOffEnum,Discrete_002.Alarmed,Discrete_002.HasStatistics,Discrete_002.Historized,Discrete_002._AccessModeEnum,Discrete_002.AccessMode,Discrete_002.LogDataChangeEvent,Discrete_002.UseOffOnMsg,Discrete_002.OnMsg,Discrete_002.OffMsg,Discrete_002.InvertValue,Discrete_002.Bad.Condition,Discrete_002.Bad.Alarmed,Discrete_002.Msg,Discrete_002.Output.DiffAddr,Discrete_002._RefAttrID,Discrete_002.Desc,Discrete_002._AttrCat,Discrete_002._HasBuffer,Discrete_002.Input._ExternalName,Discrete_002.Input._InternalName,Discrete_002.Input.ReadStatus,Discrete_002.Input.Value,Discrete_002.Input.DataType,Discrete_002.Input.InputSource,Discrete_002.Output._ExternalName,Discrete_002.Output._InternalName,Discrete_002.Output.WriteStatus,Discrete_002.Output.Value,Discrete_002.Output.DataType,Discrete_002.Output.OutputDest,Analog_001._ExternalName,Analog_001._InternalName,Analog_001._AccessModeEnum,Analog_001.AccessMode,Analog_001.EngUnits,Analog_001.LevelAlarmed,Analog_001.ROCAlarmed,Analog_001.DeviationAlarmed,Analog_001.Bad.Condition,Analog_001.Bad.Alarmed,Analog_001.LogDataChangeEvent,Analog_001.HasStatistics,Analog_001.Scaled,Analog_001.Historized,Analog_001.Output.DiffAddr,Analog_001.Deadband,Analog_001._RefAttrID,Analog_001.AnalogType,Analog_001._AnalogTypeEnum,Analog_001.Desc,Analog_001._AttrCat,Analog_001._HasBuffer,Analog_001.Input._ExternalName,Analog_001.Input._InternalName,Analog_001.Input.ReadStatus,Analog_001.Input.Value,Analog_001.Input.DataType,Analog_001.Input.InputSource,Analog_001.Output._ExternalName,Analog_001.Output._InternalName,Analog_001.Output.WriteStatus,Analog_001.Output.Value,Analog_001.Output.DataType,Analog_001.Output.OutputDest,testudaext._ExternalName,testudaext._InternalName,testudaext.InputSource,testudaext._orefAttrKey,testudaext.DiffOutputDest,testudaext._ExtensionAttributeDatatypes,testudaext._ExtensionAttributeCategories,testudaext.ReadStatus,testudaext._OriginalExtendedAttribute,testudaext._ExternalName,testudaext._InternalName,testudaext.WriteStatus,testudaext.WriteValue,testudaext.OutputDest,testudaext._ExternalName,testudaext._InternalName,testudaext.InAlarm,testudaext.TimeAlarmOn,testudaext.TimeAlarmOff,testudaext.TimeAlarmAcked,testudaext.Priority,testudaext.Category,testudaext.AckMsg,testudaext.Acked,testudaext.DescAttrName,testudaext._refAlmAttrKey,testudaext._CategoryEnum,testudaext._ExtensionAttributeDatatypes,testudaext._ExtensionAttributeCategories,testudaext.ActiveAlarmState,testudaext._AlarmModeEnum,testudaext.AlarmMode,testudaext.AlarmModeCmd,testudaext.AlarmInhibit,testudaext._ExternalName,testudaext._InternalName,testudaext._key,testudaext.ValueDeadBand,testudaext.ForceStoragePeriod,testudaext.TrendHi,testudaext.TrendLo,testudaext.EngUnits,testudaext._refHistAttrKey,testudaext._ExtensionAttributeDatatypes,testudaext._ExtensionAttributeCategories,testudaext.Description,testudaext.InterpolationType,testudaext._InterPolationTypeEnum,testudaext.RolloverValue,testudaext.SampleCount,testudaext.EnableSwingingDoor,testudaext.RateDeadBand,testuda._ExternalName,testuda._InternalName,testuda.WriteStatus,testuda.OutputDest,testuda._orefAttrKey,testuda.OutputEveryScan,testuda._ExtensionAttributeDatatypes,testuda._ExtensionAttributeCategories,testuda._ExternalName,testuda._InternalName,testuda.ReadStatus,testuda.InputSource,testuda._refAttrKey,testuda._ExtensionAttributeDatatypes,testuda._ExtensionAttributeCategories
+-> contient UserAttrData et __Attr_Name_List_1 s'ils existent
+
+
+
+SCRIPTS
+
+categ=MxCategory_SystemWriteable; type=MxString; name=_Attributes; val=Tagname,ShortDesc,_CategoryEnum,_Attributes,ScanStateCmd,ScanState,SecurityGroup,Errors,_ExecutionRelativeOrderEnum,Area,Container,Host,_AlarmModeEnum,AlarmMode,AlarmModeCmd,AlarmInhibit,InAlarm,_BasedOn,_IsTemplate,CodeBase,UDAs,_InheritedUDAs,Extensions,_InheritedExtensions,_Category,ConfigVersion,_Warnings,ContainedName,ExecutionRelatedObject,ExecutionRelativeOrder,HierarchicalName,MinorVersion,_CmdAdd,_CmdRemove,CmdData,_InheritedCmdData,_AdviseOnlyActiveEnabled,array1,array2,array3,array4,array5,inter,time,_ExternalName,_InternalName,_AnalogTypeEnum,AnalogType,AnalogOutputEnabled,PV,PV.EngUnits,PVAuto,PV.OverrideEnabled,_PVModeEnum,PV.Mode,Scaled,Deadband,PV.LevelAlarmed,PV.ROCAlarmed,PV.DevAlarmed,PV.Bad.Condition,PV.Bad.Alarmed,PV.Historized,SP,SP.Historized,PV.Mode.Historized,PV.LogDataChangeEvent,AnalogOutput.DiffAddr,PV.Input._ExternalName,PV.Input._InternalName,PV.Input.ReadStatus,PV.Input.Value,PV.Input.DataType,PV.Input.InputSource,testscript._ExternalName,testscript._InternalName,testscript.ExecuteText,testscript._Binary,testscript.AliasReferences,testscript.Aliases,testscript._TriggerTypeEnum,testscript.TriggerType,testscript.Expression,testscript.DataChangeDeadband,testscript.StatsReset,testscript.ErrorCnt,testscript.ExecutionCnt,testscript.ExecutionTime,testscript.ExecutionTimeAvg,testscript.Disabled,testscript.State,testscript._StateEnum,testscript._ExternalReferences,testscript._ExternalReferenceFlags,testscript._Guid,testscript.ExecutionError.Condition,testscript.DeclarationsText,testscript.StartupText,testscript.ShutdownText,testscript.OnScanText,testscript.OffScanText,testscript._ErrorMessage,testscript._ErrorLine,testscript._ErrorColumn,testscript._ErrorReport,testscript._LibraryDependencies,testscript.ExecutionError.Alarmed,testscript.TriggerPeriod,testscript.ExecutionError.Desc,testscript._SetAttributeCallbacks,testscript.ScriptExecutionGroup,testscript.ScriptOrder,testscript._ScriptExecutionGroupEnum,testscript.ExecutionTimeStamp,testscript.RunsAsync,testscript.State.Historized,testscript.ExecuteTimeout.Limit,testscript.AsyncShutdownCmd,testscript._AliasReferenceFlags,testscript.TriggerOnQualityChange,testscript._LastExpression
+categ=MxCategoryPackageOnly; type=MxBigString; name=Extensions; val=<ExtensionInfo><ObjectExtension><Extension Name="testscript" ExtensionType="ScriptExtension" InheritedFromTagName=""/></ObjectExtension><AttributeExtension/></ExtensionInfo>
+    categ=MxCategory_SystemInternal; type=MxString; name=testscript._ExternalName; val=No Data
+    categ=MxCategory_SystemInternal; type=MxString; name=testscript._InternalName; val=No Data
+categ=MxCategoryPackageOnly_Lockable; type=MxBigString; name=testscript.ExecuteText; val=executiontest
+    categ=MxCategoryWriteable_C_Lockable; type=MxQualifiedStruct; name=testscript._Binary; val=0
+    categ=MxCategoryWriteable_C_Lockable; type=MxReferenceType; name=testscript.AliasReferences; val=No Data
+    categ=MxCategoryPackageOnly_Lockable; type=MxString; name=testscript.Aliases; val=No Data
+    categ=MxCategory_Constant; type=MxString; name=testscript._TriggerTypeEnum; val=WhileTrue,WhileFalse,OnTrue,OnFalse,DataChange,Periodic
+    categ=MxCategoryWriteable_C_Lockable; type=MxQualifiedEnum; name=testscript.TriggerType; val=WhileTrue
+categ=MxCategoryPackageOnly_Lockable; type=MxBigString; name=testscript.Expression; val=blabla
+    categ=MxCategoryWriteable_UC_Lockable; type=MxDouble; name=testscript.DataChangeDeadband; val=0,0
+    categ=MxCategoryWriteable_US; type=MxBoolean; name=testscript.StatsReset; val=No Data
+    categ=MxCategoryCalculated; type=MxInteger; name=testscript.ErrorCnt; val=No Data
+    categ=MxCategoryCalculated; type=MxInteger; name=testscript.ExecutionCnt; val=No Data
+    categ=MxCategoryCalculated; type=MxInteger; name=testscript.ExecutionTime; val=No Data
+    categ=MxCategoryCalculated; type=MxInteger; name=testscript.ExecutionTimeAvg; val=No Data
+    categ=MxCategoryWriteable_US; type=MxBoolean; name=testscript.Disabled; val=No Data
+    categ=MxCategoryCalculated; type=MxQualifiedEnum; name=testscript.State; val=No Data
+    categ=MxCategory_Constant; type=MxString; name=testscript._StateEnum; val=Initializing,Error,Disabled,Busy,Ready
+categ=MxCategoryWriteable_C_Lockable; type=MxReferenceType; name=testscript._ExternalReferences; val=blabla
+    categ=MxCategoryWriteable_C_Lockable; type=MxInteger; name=testscript._ExternalReferenceFlags; val=1
+    categ=MxCategoryWriteable_C_Lockable; type=MxString; name=testscript._Guid; val={A8D070CC-5271-4013-914D-85BC7D6B8EAD}
+    categ=MxCategoryCalculated; type=MxBoolean; name=testscript.ExecutionError.Condition; val=No Data
+categ=MxCategoryPackageOnly_Lockable; type=MxBigString; name=testscript.DeclarationsText; val=declarationtest
+categ=MxCategoryPackageOnly_Lockable; type=MxBigString; name=testscript.StartupText; val=
+categ=MxCategoryPackageOnly_Lockable; type=MxBigString; name=testscript.ShutdownText; val=
+categ=MxCategoryPackageOnly_Lockable; type=MxBigString; name=testscript.OnScanText; val=
+categ=MxCategoryPackageOnly_Lockable; type=MxBigString; name=testscript.OffScanText; val=
+    categ=MxCategoryPackageOnly_Lockable; type=MxString; name=testscript._ErrorMessage; val=
+    categ=MxCategoryPackageOnly_Lockable; type=MxInteger; name=testscript._ErrorLine; val=0
+    categ=MxCategoryPackageOnly_Lockable; type=MxInteger; name=testscript._ErrorColumn; val=0
+    categ=MxCategoryPackageOnly_Lockable; type=MxBoolean; name=testscript._ErrorReport; val=false
+    categ=MxCategoryPackageOnly_Lockable; type=MxString; name=testscript._LibraryDependencies; val=No Data
+    categ=MxCategoryPackageOnly_Lockable; type=MxBoolean; name=testscript.ExecutionError.Alarmed; val=false
+    categ=MxCategoryWriteable_C_Lockable; type=MxElapsedTime; name=testscript.TriggerPeriod; val=00:00:00.0000000
+    categ=MxCategoryCalculated; type=MxString; name=testscript.ExecutionError.Desc; val=No Data
+    categ=MxCategoryWriteable_S; type=MxStatusType; name=testscript._SetAttributeCallbacks; val=No Data
+    categ=MxCategoryPackageOnly_Lockable; type=MxQualifiedEnum; name=testscript.ScriptExecutionGroup; val=Before outputs
+    categ=MxCategoryPackageOnly_Lockable; type=MxInteger; name=testscript.ScriptOrder; val=32000
+    categ=MxCategory_Constant; type=MxString; name=testscript._ScriptExecutionGroupEnum; val=After inputs,Before outputs
+    categ=MxCategoryCalculated; type=MxTime; name=testscript.ExecutionTimeStamp; val=No Data
+    categ=MxCategoryWriteable_C_Lockable; type=MxBoolean; name=testscript.RunsAsync; val=false
+    categ=MxCategoryPackageOnly_Lockable; type=MxBoolean; name=testscript.State.Historized; val=false
+    categ=MxCategoryWriteable_C_Lockable; type=MxInteger; name=testscript.ExecuteTimeout.Limit; val=0
+    categ=MxCategoryWriteable_US; type=MxBoolean; name=testscript.AsyncShutdownCmd; val=No Data
+    categ=MxCategoryWriteable_C_Lockable; type=MxInteger; name=testscript._AliasReferenceFlags; val=No Data
+    categ=MxCategoryWriteable_C_Lockable; type=MxBoolean; name=testscript.TriggerOnQualityChange; val=false
+    categ=MxCategoryCalculatedRetentive; type=MxString; name=testscript._LastExpression; val=No Data
+    
