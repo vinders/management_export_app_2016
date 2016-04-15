@@ -1,11 +1,12 @@
 Organisation générale et classes
   H. Bersini, Programmation orientée objet, Eyrolles
   Collectif ENI, Design patterns - 14 patterns de conception détaillés (dépliant), Editions ENI
-  J. Gabay & D. Gabay, UML2, Dunod
-  Troelsen, Pro C# 5.0 and the .NET 4.5 Framework, Apress
-  W. de Kort, Exam Ref 70-483- Programming in C#, Microsoft Press
-  Cours 3e année C# : modèle multi-tiers
   Cours infographie 2e année programmation web PHP : modèle MVC
+  Cours 3e année C# : modèle multi-tiers
+
+Autres livres
+  J. Gabay & D. Gabay, UML2, Dunod
+  W. De Kort - Exam Ref 70-483 Programming in C#, Microsoft Press 
 
 Divers
   Cours infographie 1e année 2D : Photoshop (création sprites et icône)
@@ -15,7 +16,12 @@ Divers
   Cours 1e année programmation C : coding rules
   Documentation ArchestrA : installation, configuration, fonctionnement
   Documentation GRAccess : obtention accès + connexion, récupération objets, référence des fonctions
+  Doc de DocX et EPPlus + exemples
 
+Autres sites
+  www.technord.com
+  commentcamarche.net
+  wikipedia
 
 
 Création d'un arbre via index (conteneur)
@@ -104,6 +110,7 @@ Création de threads et tasks + exécution asynchrone
   http://www.codeproject.com/Articles/189374/The-Basics-of-Task-Parallelism-via-C
   Cours Unix + threads 2e année : threads, mutex
   http://stackoverflow.com/questions/4331262/task-continuation-on-ui-thread
+  W. De Kort - Exam Ref 70-483 Programming in C#, Microsoft Press
 
 Délégués
 -> callback après exécution de tâche
@@ -225,3 +232,9 @@ Gestion des raccourcis claviers
 Sérialisation XML
 -> export docx : sauver catégories et sélection
   http://stackoverflow.com/questions/19992569/c-sharp-serialize-an-object-with-a-list-of-objects-in-it
+
+Ouvrir fichier XLSX existant avec EPPlus
+-> export mesures (ouvrir patron pour ajouter données)
+  http://stackoverflow.com/questions/22717271/trying-to-read-an-excel-file-with-epplus-works-on-the-server-but-not-through-a
+  http://stackoverflow.com/questions/12912912/save-as-using-epplus
+  http://stackoverflow.com/questions/30972175/epplus-how-can-i-assign-border-around-each-cell-after-i-apply-loadfromcollectio

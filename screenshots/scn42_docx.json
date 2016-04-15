@@ -1,0 +1,46 @@
+"test" : {
+	"User Defined" : {
+		"User Defined templates" : [
+			"$Test",
+			"$Test_ext",
+			"$UserDefined",
+			"$UserDefined_001"
+		]
+	},
+	"Control Modules" : {
+		"Control Modules templates" : [
+			"$AnalogDevice"
+		]
+	},
+	"Equipment Modules" : {
+		"Equipment Modules templates" : [
+			"$DiscreteDevice"
+		]
+	},
+	"Unit Modules" : {
+		"Unit Modules templates" : [
+			"$FieldReference",
+			"$FieldReference_001"
+		]
+	},
+	"Base Function Modules" : {
+		"Base Function Modules templates" : [
+			"$Boolean",
+			"$Double",
+			"$Float",
+			"$Integer",
+			"$String"
+		]
+	},
+	"MCO Modules" : {
+		"MCO Modules templates" : [
+			"$Sequencer",
+			"$SQLData"
+		]
+	},
+	"Area" : {
+		"Area templates" : [
+			"$Switch"
+		]
+	}
+}
