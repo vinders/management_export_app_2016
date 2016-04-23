@@ -238,3 +238,13 @@ Ouvrir fichier XLSX existant avec EPPlus
   http://stackoverflow.com/questions/22717271/trying-to-read-an-excel-file-with-epplus-works-on-the-server-but-not-through-a
   http://stackoverflow.com/questions/12912912/save-as-using-epplus
   http://stackoverflow.com/questions/30972175/epplus-how-can-i-assign-border-around-each-cell-after-i-apply-loadfromcollectio
+
+Lire/éditer clé registre
+-> mémoriser/récupérer dernière IP et dernière galaxie utilisées
+  http://www.codeproject.com/Articles/3389/Read-write-and-delete-from-registry-with-C
+
+Drag and drop
+-> instances vers liste de sélection
+  http://stackoverflow.com/questions/6050059/mousedown-in-winform-listbox-kills-selectedindexchanged
+  https://msdn.microsoft.com/en-us/library/aa984430(v=vs.71).aspx
+  https://pingfu.net/csharp/2015/04/22/receive-wndproc-messages-in-wpf.html
