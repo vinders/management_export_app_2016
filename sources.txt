@@ -248,3 +248,7 @@ Drag and drop
   http://stackoverflow.com/questions/6050059/mousedown-in-winform-listbox-kills-selectedindexchanged
   https://msdn.microsoft.com/en-us/library/aa984430(v=vs.71).aspx
   https://pingfu.net/csharp/2015/04/22/receive-wndproc-messages-in-wpf.html
+
+Onglets personnalisés
+-> changer couleurs, formes, ...
+  http://www.codeproject.com/Articles/91387/Painting-Your-Own-Tabs-Second-Edition
