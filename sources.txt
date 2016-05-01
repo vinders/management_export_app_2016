@@ -252,3 +252,7 @@ Drag and drop
 Onglets personnalisés
 -> changer couleurs, formes, ...
   http://www.codeproject.com/Articles/91387/Painting-Your-Own-Tabs-Second-Edition
+
+Compteur haute résolution
+->Tests performances
+  http://www.dotnetperls.com/stopwatch
